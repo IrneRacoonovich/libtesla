@@ -2983,7 +2983,7 @@ namespace tsl {
          *
          * @return Overlay instance
          */
-        static inline Overlay* const get() {
+        static inline Overlay* get() {
             return Overlay::s_overlayInstance;
         }
 
